@@ -10,7 +10,7 @@ docker run \
   --detach \
   --publish 8080:6543 \
   --name mediagoblin \
-  mtlynch/mediagoblin
+  ghcr.io/nealdb/mediagoblin-docker:master
 ```
 
 MediaGoblin will be available at http://localhost:8080
@@ -30,7 +30,7 @@ docker run \
   --publish 8080:6543 \
   --volume "${PWD}/persist/srv/mediagoblin:/var/lib/mediagoblin" \
   --name mediagoblin \
-  mtlynch/mediagoblin
+  ghcr.io/nealdb/mediagoblin-docker:master
 ```
 
 MediaGoblin will be available at http://localhost:8080
